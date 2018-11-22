@@ -1,7 +1,27 @@
 body {
   font-family: Helvetica;
 }
+
 .app {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 0px;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+.channel-list-container {
+  height: 100vh;
+  width: 33vw;
+  background-color: red;
+}
+
+.message-list-container {
+  height: 100vh;
+  width: 67vw;
+  background-color: gray;
+  overflow: scroll;
+}
+
+.message {
+  padding: 20px;
 }
